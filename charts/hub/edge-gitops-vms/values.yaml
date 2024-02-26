@@ -32,7 +32,7 @@ vms:
     cores: 1
     sockets: 1
     threads: 1
-    template: rhel8-desktop-medium
+    template: rhel8-desktop-small
     sshsecret: secret/data/hub/kiosk-ssh
     # cloudinitsecret: 'may also be specified, same format as sshsecret'
     sshpubkeyfield: publickey
