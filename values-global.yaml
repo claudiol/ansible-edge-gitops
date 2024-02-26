@@ -9,7 +9,7 @@ global:
 
   hub:
     provider: aws
-    storageClassName: gp2
+    storageClassName: ocs-external-storagecluster-ceph-rbd
 
 main:
   clusterGroupName: hub
