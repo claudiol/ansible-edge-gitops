@@ -10,7 +10,7 @@ cloudInitDefaultSecretName: secret/data/hub/cloud-init
 
 # Or "RWO" and "gp2"; other choices are possible too but
 # these are defaults for ODF which is included in the pattern
-defaultAccessMode: "ReadWriteMany"
+defaultAccessMode: "ReadWriteOnce"
 defaultStorageClassName: "ocs-storagecluster-ceph-rbd"
 defaultVolumeMode: "Block"
 
