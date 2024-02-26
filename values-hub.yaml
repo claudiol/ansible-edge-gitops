@@ -8,7 +8,7 @@ clusterGroup:
     - golang-external-secrets
     - ansible-automation-platform
     - openshift-cnv
-    - openshift-storage
+      #    - openshift-storage
     - edge-gitops-vms
 
   subscriptions:
