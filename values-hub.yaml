@@ -30,9 +30,9 @@ clusterGroup:
 
   imperative:
     jobs:
-      - name: deploy-kubevirt-worker
-        playbook: ansible/deploy_kubevirt_worker.yml
-        verbosity: -vvv
+      #      - name: deploy-kubevirt-worker
+      #        playbook: ansible/deploy_kubevirt_worker.yml
+      #        verbosity: -vvv
       - name: configure-aap-controller
         playbook: ansible/imperative_configure_controller.yml
         image: quay.io/hybridcloudpatterns/ansible-edge-gitops-ee:latest
