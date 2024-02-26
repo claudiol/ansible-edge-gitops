@@ -33,7 +33,7 @@
       ansible.builtin.assert:
         fail_msg: Platform for OpenShift cluster must be AWS!
         that:
-          - cluster_info.resources[0].status.platform == "AWS"
+          - cluster_info.resources[0].status.platform == "BareMetal"
 
     - name: Query MachineSets
       kubernetes.core.k8s_info:
