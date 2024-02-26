@@ -23,12 +23,12 @@ jobTerminationGracePeriod: 3600
 vms:
   kiosk:
     count: 1
-    flavor: medium
+    flavor: small
     workload: desktop
     os: rhel8
     role: kiosk
     storage: 30Gi
-    memory: 16Gi
+    memory: 2Gi
     cores: 1
     sockets: 1
     threads: 1
