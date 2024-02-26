@@ -24,7 +24,7 @@ vms:
   kiosk:
     count: 1
     flavor: small
-    workload: desktop
+    workload: server
     os: rhel8
     role: kiosk
     storage: 30Gi
@@ -32,7 +32,7 @@ vms:
     cores: 1
     sockets: 1
     threads: 1
-    template: rhel8-desktop-small
+    template: rhel8-server-small
     sshsecret: secret/data/hub/kiosk-ssh
     # cloudinitsecret: 'may also be specified, same format as sshsecret'
     sshpubkeyfield: publickey
