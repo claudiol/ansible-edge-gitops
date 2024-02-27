@@ -65,7 +65,7 @@ items:
       edge-gitops-role: {{ $vmr.role }}
       vm.kubevirt.io/template: {{ $vmr.template }}
       vm.kubevirt.io/template.revision: "1"
-      vm.kubevirt.io/template.version: v0.19.4
+      vm.kubevirt.io/template.version: v0.24.2
     name: {{ $identifier }}
   spec:
     dataVolumeTemplates:
@@ -128,7 +128,7 @@ items:
             networkInterfaceMultiqueue: true
             rng: {}
           machine:
-            type: pc-q35-rhel8.4.0
+            type: pc-q35-rhel8.6.0
           resources:
             requests:
               memory: {{ $vmr.memory }}
